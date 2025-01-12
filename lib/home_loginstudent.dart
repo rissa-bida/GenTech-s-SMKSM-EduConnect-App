@@ -18,7 +18,6 @@ class _LoginstudentState extends State<Loginstudent> {
     String password = _passwordController.text;
 
     if (username.isNotEmpty && password.isNotEmpty) {
-      // ***REPLACE THIS WITH REAL AUTHENTICATION***
       print('Logging in with: $username / $password');
       widget.onLoginSuccess();
     } else {
@@ -41,7 +40,7 @@ class _LoginstudentState extends State<Loginstudent> {
               Column(
                 children: [
                   Image.asset(
-                    'lib/images/smksmlogo.png', // Replace with your logo path
+                    'images/smksmlogo.png', 
                     height: 70,
                   ),
                   const SizedBox(height: 10),
