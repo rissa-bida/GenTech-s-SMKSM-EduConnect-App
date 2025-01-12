@@ -22,7 +22,7 @@ class _LoginadminState extends State<Loginadmin> {
               Column(
                 children: [
                   Image.asset(
-                    'lib/images/smksmlogo.png',
+                    'images/smksmlogo.png',
                     height: 70,
                   ),
                   const SizedBox(height: 10),
