@@ -35,7 +35,7 @@ class AdminDashboard extends StatelessWidget {
           children: [
             // Logo
             Image.asset(
-              'lib/images/smksmlogo.png',
+              'images/smksmlogo.png',
               height: 150,
             ),
             const SizedBox(height: 20.0),
